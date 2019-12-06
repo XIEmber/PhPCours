@@ -1,0 +1,45 @@
+@import url("reset.css");
+@import url("font.css");
+
+header h1{
+  text-align: center;
+  margin:0 0 25px 0;
+  color:black;
+  font-size:65px;
+}
+
+h1{
+  color:black;
+  text-align: center;
+  margin:25px 0 0 0;
+}
+
+header nav ul li{
+display: inline-block;
+width:24%;
+text-align: center;
+background-color:black;
+padding:0.2%;
+}
+header nav ul li a{
+  color:red;
+}
+
+footer{
+  text-align: right;
+  color:black;
+  margin-top:100px
+}
+body {
+  background-color:Red;;
+  margin:100px 0 250px 0
+}
+input {
+margin-bottom: 25px;
+margin-left: 600px;
+margin-top: 25px;
+}
+label{
+margin-bottom: 25px;
+margin-left: 600px;
+}
