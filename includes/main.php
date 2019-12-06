@@ -1,5 +1,4 @@
 <main>
-
 <?php
 //$page = isset($_GET['page']) ? $_GET['page'] : 'acceuil';//
 if (isset($_GET['page'])) {
@@ -8,7 +7,7 @@ if (isset($_GET['page'])) {
 
 else {
   $page = 'accueil';
-} 
+}
 $liste = glob("./includes/*.inc.php");
 $page = "./includes/" . $page . ".inc.php";
 
