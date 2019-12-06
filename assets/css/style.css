@@ -43,3 +43,14 @@ label{
 margin-bottom: 25px;
 margin-left: 600px;
 }
+
+img {
+  width:30%;
+    margin:0 100px 0 550px;
+    opacity : 85%;
+}
+
+p#lucifer{
+  position:relative;
+  text-align: center;
+}
