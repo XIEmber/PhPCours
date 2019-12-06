@@ -14,10 +14,8 @@
   </div>
   <div>
   <label for="msg">Message :</label>
-      <textarea name="msg" id="msg"></textarea>
+  <textarea name="msg" id="msg"></textarea>
   </div>
-  <div>
   <input type="submit" value="Envoyer"/><br />
-  </div>
   <input type="hidden" value="frmcontact"/><br />
 </form>
