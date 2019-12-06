@@ -1,5 +1,5 @@
 
-<form action="#" method="post">
+<form action="index.php?page=contact" method="post">
   <div>
   <label for="nom">Nom :</label><br />
   <input type="text" name="nom" id="nom"/><br />
@@ -13,8 +13,8 @@
   <input type="email" name="email" id="email"/><br />
   </div>
   <div>
-  <label for="mdp">Mot De Passe :</label><br />
-  <input type="password" name="mdp" id="mdp"/><br />
+  <label for="msg">Message :</label>
+      <textarea name="msg" id="msg"></textarea>
   </div>
   <div>
   <input type="submit" value="Envoyer"/><br />
